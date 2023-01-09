@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<script src="./index.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>arcdocs</title>
+</head>
+
+<body>
+  <!----<div id="font-bubble">
+    <button class="btn bg-red-700	 hover:bg-amber-900	 text-white font-bold py-2 px-4 mt-24 ml-6 rounded focus:outline-none absolute">
+      F
+    </button>
+  </div>-->
+<!---- this font bubble option may be used in the future, no point in deleting it rn-->
+
+  <div>
+    <select class="py-2 px-4 mt-24 ml-6 absolute" onchange="changeFont()" id="font-picker">
+      <option value="Arial">Arial</option>
+      <option value="Georgia">Georgia</option>
+    </select>
+  </div>
+
+  <div id="textarea">
+  <textarea class="mx-auto break-words whitespace-normal block w-1/2 h-screen py-6 my-5 form-textarea placeholder-gray-500" placeholder="II Timothy 3:7"></textarea>
+  </div>
+</body>
+
+</html>
+
+
+
