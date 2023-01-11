@@ -1,4 +1,4 @@
-  var isDefaultFont = true;
+var isDefaultFont = true;
 
   function switchFont() {
     var text = document.getElementById("font-bubble");
@@ -19,4 +19,3 @@
 }
 /* the thing about fonts is that I'm not so sure that 12 size font is equivalent to 12 pixels
 */
-

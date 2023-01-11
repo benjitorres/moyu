@@ -1,9 +1,16 @@
 {
 
-  "scripts":{
+  "scripts": {
+
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+
   },
+
   "devDependencies": {
+
     "tailwindcss": "^3.2.4"
+
   }
+
 }
+
