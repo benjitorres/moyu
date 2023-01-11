@@ -13,21 +13,31 @@
 
 <body>
 
+  
   <div id="font-bubble">
     <button class="btn bg-red-700	 hover:bg-amber-900	 text-white font-bold py-2 px-4 mt-24 ml-6 rounded focus:outline-none absolute" onclick="switchFont()">
       F
     </button>
-  <!-- <div>
-    <select class="py-2 px-4 mt-24 ml-6 absolute" onchange="changeFont()" id="font-picker">
-      <option value="Arial">Arial</option>
-      <option value="Times New Roman">Times New Roman</option>
-    </select>
-  </div> -->
 
-  <div id="textarea">
-  <textarea class="mx-auto break-words whitespace-normal block w-1/2 h-screen py-6 my-5 form-textarea placeholder-gray-500" placeholder="II Timothy 3:7"></textarea>
+  <div>
+    <select id="font-size" class="px-5 mt-40 ml-6 absolute" onchange="changeFontSize()">
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="16">16</option>
+        <option value="24">24</option>
+        <option value="96">96</option>
+    </select>
+
+    <!--note to self: it matters if you're trying to add something from tailwind and you're not running npm run dev for tailwind -->
   </div>
+  <div id="textarea">
+    <textarea class="mx-auto break-words block w-1/2 h-screen py-6 my-5 form-textarea placeholder-gray-500" placeholder="II Timothy 3:7"></textarea>
+  </div>
+  </div>
+
 </body>
+
+
 
 </html>
 
